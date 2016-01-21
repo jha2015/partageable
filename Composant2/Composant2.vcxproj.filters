@@ -9,6 +9,9 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{551c1348-a26d-4f92-94e7-78168ec315b4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Composant2.cpp">
@@ -19,5 +22,13 @@
     <ClInclude Include="..\interfaces\Composant2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Composant2Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\Composant1\Resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
