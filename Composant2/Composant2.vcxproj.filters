@@ -19,10 +19,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\interfaces\Composant2.h">
+    <ClInclude Include="Composant2Version.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Composant2Version.h">
+    <ClInclude Include="Composant2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
