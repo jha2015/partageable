@@ -110,6 +110,11 @@
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Composant3\Composant3.vcxproj">
+      <Project>{65042ae1-2f9a-4562-bf3d-b5b74cbaee3d}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
