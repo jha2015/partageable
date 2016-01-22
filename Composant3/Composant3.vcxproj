@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{65042AE1-2F9A-4562-BF3D-B5B74CBAEE3D}</ProjectGuid>
+    <ProjectGuid>{E87B08C5-E012-4C1E-A33F-9FB91F319944}</ProjectGuid>
     <RootNamespace>Composant3</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -44,6 +44,8 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)Interfaces</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>COMPOSANT3_EXPORTS;WIN32;_WINDOWS;_DEBUG;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -65,12 +67,13 @@
   <ItemGroup>
     <ClInclude Include="Composant3.h" />
     <ClInclude Include="Composant3Version.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Composant3.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\Composant1\Resource.rc" />
+    <ResourceCompile Include="Composant3.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -14,7 +14,7 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Resource">
-      <UniqueIdentifier>{fb54e826-62ac-4a50-819a-1f6c22f6f400}</UniqueIdentifier>
+      <UniqueIdentifier>{3deb9b5c-e59f-4cf5-97be-276f9513169d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -24,14 +24,17 @@
     <ClInclude Include="Composant3Version.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Composant3.cpp">
-      <Filter>Fichiers sources</Filter>
+      <Filter>Fichiers de ressources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="..\Composant1\Resource.rc">
+    <ResourceCompile Include="Composant3.rc">
       <Filter>Resource</Filter>
     </ResourceCompile>
   </ItemGroup>

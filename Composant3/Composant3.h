@@ -10,7 +10,7 @@
 
 
 
-// interface du composant1
+// interface du composant3
 COMPOSANT3_INTERFACE int composant3(int p1, int p2);
 
 COMPOSANT3_INTERFACE char * getComposant3Version(void);
