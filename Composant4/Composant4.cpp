@@ -1,7 +1,6 @@
 
 #include "Composant4.h"
 #include "Composant4Version.h"
-#include "Composant3.h"
  #include <string.h>
 #include <stdlib.h>
 #include <stdio.h> 
@@ -11,22 +10,17 @@ int addition_interne(int a1, int a2);
 
 
 
-int composant4(int p1, int p2)
+int composant1(int p1, int p2)
 {
-	return composant3(p1,p2);
+	return  addition_interne(p1,p2);
 }
 
-// int addition_interne(int a1, int a2)
-//{
-	//return a1+a2;
-//}
-
-char * getComposant4Version()
+ int addition_interne(int a1, int a2)
 {
-	char * version3=getComposant3Version();
-	char * version4= "Composant 4 version " COMPOSANT_VERSION_STR;
-	char* c = (char*) malloc(strlen(version4)+strlen(version3));
-	strcpy(c,version4);
-	strcat(c,version3);
-	return c;
+	return a1+a2;
+}
+
+char * getComposant1Version()
+{
+	return  "Composant 4 version " COMPOSANT_VERSION_STR;
 }
